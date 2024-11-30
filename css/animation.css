@@ -1,0 +1,179 @@
+header p.text-capitalize::after {
+    content: "";
+    animation: type-writer 7s infinite;
+    font-family: 'Montserrat','sans-serif';
+    font-size: 60px;
+    font-weight: 400;
+    width: 100%;
+}
+
+
+@keyframes type-writer {
+    0% {
+        content: " |";
+    }
+
+    3% {
+        content: " D|";
+    }
+
+    5% {
+        content: " De|";
+    }
+
+    7% {
+        content: " Dev|";
+    }
+
+    10% {
+        content: " Deve|";
+    }
+
+    13% {
+        content: " Devel|";
+    }
+
+    15% {
+        content: " Develo|";
+    }
+
+    17% {
+        content: " Develop|";
+    }
+
+    20% {
+        content: " Develope|";
+    }
+
+    24% {
+        content: " Developer|";
+    }
+
+    27% {
+        content: " Develope|";
+    }
+
+    28% {
+        content: " Develop|";
+    }
+
+    30% {
+        content: " Develo|";
+    }
+
+    32% {
+        content: " Devel|";
+    }
+
+    35% {
+        content: " Deve|";
+    }
+
+    37% {
+        content: " Dev|";
+    }
+
+    40% {
+        content: " De|";
+    }
+
+    42% {
+        content: " D|";
+    }
+
+    45% {
+        content: " De|";
+    }
+
+    47% {
+        content: " Des|";
+    }
+
+    55% {
+        content: " Desi|";
+    }
+
+    57% {
+        content: " Desig|";
+    }
+
+    60% {
+        content: " Design|";
+    }
+
+    62% {
+        content: " Designe|";
+    }
+
+    65% {
+        content: " Designer|";
+    }
+
+    67% {
+        content: " Designer|";
+    }
+
+    70% {
+        content: " Designe|";
+    }
+
+    71% {
+        content: " Design|";
+    }
+
+    73% {
+        content: " Desig|";
+    }
+
+    75% {
+        content: " Desi|";
+    }
+
+    77% {
+        content: " Des|";
+    }
+
+    78% {
+        content: " De|";
+    }
+
+    79% {
+        content: " D|";
+    }
+
+    80% {
+        content: " |";
+    }
+
+    83% {
+        content: " M|";
+    }
+
+    85% {
+        content: " Mi|";
+    }
+
+    87% {
+        content: " Min|";
+    }
+
+    89% {
+        content: " Mina |";
+    }
+    92% {
+        content: " Mina K|";
+    }
+    93% {
+        content: " Mina Ka|";
+    }
+    95% {
+        content: " Mina Kadi|";
+    }
+
+    96% {
+        content: " Mina Kadis|";
+    }
+    100% {
+        content: " Mina|";
+    }
+}

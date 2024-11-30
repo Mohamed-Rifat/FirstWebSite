@@ -1,0 +1,11 @@
+
+@media (max-width: 768px) { 
+    header#home .container p.text-capitalize{
+        width: 100%;
+        font-size: 30px;
+
+    }
+    header p.text-capitalize::after{
+        font-size: 49px;
+    }
+}
